@@ -13,7 +13,7 @@
 - (BOOL)canEvaluatePolicy:(LAPolicy)policy error:(NSError * __autoreleasing *)error __attribute__((swift_error(none)));
 ```
 
-####弹出框出来验证TouchID,Block返回成功和失败
+####弹出框出来验证TouchID,Block返回成功和失败的回调
 ```
 - (void)evaluatePolicy:(LAPolicy)policy localizedReason:(NSString *)localizedReason reply:(void(^)(BOOL success, NSError * __nullable error))reply;
 ```
