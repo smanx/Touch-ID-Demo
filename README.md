@@ -1,3 +1,7 @@
+
++ Xcode 8.1 or later
++ iOS 8.0 or later
+
 ####引入指纹解锁必须的头文件
 
 ```
